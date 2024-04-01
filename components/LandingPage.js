@@ -7,7 +7,7 @@ const LandingPage = ({ navigation }) => {
       <View style={styles.container}>
       <Image source={{ uri: 'https://scontent.xx.fbcdn.net/v/t1.15752-9/429477573_984536449771635_1079914004470573784_n.jpg?stp=dst-jpg_p206x206&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeH1xT39Lv3DHlGNyqQajjIpvaoKz_dVTYW9qgrP91VNhbevOqUzw1fhSnmhG5dbS9Dse5EKQO2R6cXwvDLzSTWg&_nc_ohc=pgP-x1RdPXAAX83BqUC&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRgMhAcfEq6fM0uG7h7igG8yRZM98PZZU6Yu_q07Ayg3g&oe=6619DC11'}} style={styles.logo} />
         <Text style={styles.heading}>Welcome!</Text>
-        <Text style={styles.subheading}>....</Text>
+        <Text style={styles.subheading}>TITINIANS</Text>
         <View style={styles.buttonContainer}>
           <Button title="Login" onPress={() => navigation.navigate('Login')} />
           <Button title="Register" onPress={() => navigation.navigate('Registration')} />

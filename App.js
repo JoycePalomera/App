@@ -6,6 +6,7 @@ import LoginPage from './components/LoginPage';
 import RegistrationPage from './components/RegistrationPage';
 import AccountRecoveryPage from './components/AccountRecoveryPage';
 import HomePage from './components/HomePage';
+import HomePage from './components/dashboard';
 
 const Stack = createStackNavigator();
 
@@ -18,6 +19,7 @@ const App = () => {
         <Stack.Screen name="Registration" component={RegistrationPage} />
         <Stack.Screen name="AccountRecovery" component={AccountRecoveryPage} />
         <Stack.Screen name="Home" component={HomePage} />
+        <Stack.Screen name="Home" component={Dashboard} />
       </Stack.Navigator>
     </NavigationContainer>
   );
